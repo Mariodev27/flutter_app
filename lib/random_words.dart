@@ -4,10 +4,10 @@ import 'package:english_words/english_words.dart';
 class RandomWords extends StatefulWidget {
   const RandomWords({super.key});
   @override
-  _RandomWordsState createState() => _RandomWordsState();
+  RandomWordsState createState() => RandomWordsState();
 }
 
-class _RandomWordsState extends State<RandomWords> {
+class RandomWordsState extends State<RandomWords> {
   final _sugestions = <WordPair>[];
   final _biggerFont = const TextStyle(fontSize: 18.0);
   @override
